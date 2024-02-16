@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1122375353
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e9a19de84db8c5f9977171a7ff6ab98b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cea17de082da1dfd38b5ed053fc34ca1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Fonts/nasin-nanpa-3.1.0.otf
+Dependencies:
+- /home/lucas/unityprojects/My project/Assets/AssetBundles/fonts2

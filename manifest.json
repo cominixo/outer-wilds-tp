@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "OWTokiPona.dll",
+  "author": "cominixo (jan Komi)",
+  "name": "Toki Pona Translation Mod",
+  "uniqueName": "cominixo.OWTokiPona",
+  "version": "0.1.0",
+  "owmlVersion": "2.9.8",
+  "dependencies": [
+    "xen.LocalizationUtility"
+  ]
+}

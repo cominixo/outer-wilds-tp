@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(HOME)/.local/share/OuterWildsModManager/OWML/Mods/owtp</OutputPath>
+  </PropertyGroup>
+</Project>
