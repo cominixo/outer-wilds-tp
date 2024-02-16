@@ -20,7 +20,7 @@ public class OWTokiPona : ModBehaviour
         api.RegisterLanguage(this, "toki pona", "assets/Translation.xml");
 		api.AddLanguageFont(this, "toki pona", "AssetBundles/fonts", "nasin-nanpa-3.1.0");
 		api.AddLanguageFixer("toki pona", sitelenPonaFixer);
-		api.SetLanguageFontSizeModifier("toki pona", 0.9f);
+		//api.SetLanguageFontSizeModifier("toki pona", 0.9f);
 	}
 
 	// The font has been altered so that the sitelen pona glyphs start at 0x88, so that the game can actually display them properly
