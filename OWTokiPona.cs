@@ -3,6 +3,7 @@ using OWML.ModHelper;
 using HarmonyLib;
 using System.Reflection;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 namespace OWTokiPona;
@@ -16,12 +17,11 @@ public class OWTokiPona : ModBehaviour
         Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
     }
 
-	private void Start()
-	{
+	private void Start() {
 		var api = ModHelper.Interaction.TryGetModApi<ILocalizationAPI>("xen.LocalizationUtility");
         api.RegisterLanguage(this, "toki pona", "assets/Translation.xml");
-		api.AddLanguageFont(this, "toki pona", "AssetBundles/fonts", "nasin-nanpa-3.1.0");
 		api.AddLanguageFixer("toki pona", sitelenPonaFixer);
+		api.AddLanguageFont(this, "toki pona", "AssetBundles/fonts", "nasin-nanpa-3.1.0");
 
 		SceneManager.sceneLoaded += onSceneLoaded;
 
@@ -29,17 +29,16 @@ public class OWTokiPona : ModBehaviour
 	}
 
 	private void onSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name != "TitleScreen") return;
+		if (scene.name == "TitleScreen") {
+			GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/OUTER").transform.localScale = Vector3.zero;
+			GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/WILDS").transform.localScale = Vector3.zero;
+			var eoteobject = GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye");
+			eoteobject.AddComponent<HandleEotETranslation>();
+			eoteobject.transform.localScale = new Vector3(1f, 1f, 1);
 
-		GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/OUTER").transform.localScale = Vector3.zero;
-		GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/WILDS").transform.localScale = Vector3.zero;
-		var eoteobject = GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye");
-		eoteobject.AddComponent<HandleEotETranslation>();
-		eoteobject.transform.localScale = new Vector3(1f, 1f, 1);
-
-
-		var gfxController = GameObject.Find("TitleMenuManagers").GetComponent<TitleScreenManager>()._gfxController;
-		gfxController.OnTitleLogoAnimationComplete += OnTitleLogoAnimationComplete;
+			var gfxController = GameObject.Find("TitleMenuManagers").GetComponent<TitleScreenManager>()._gfxController;
+			gfxController.OnTitleLogoAnimationComplete += OnTitleLogoAnimationComplete;
+		}
 	}
 
 	public void OnTitleLogoAnimationComplete() {
