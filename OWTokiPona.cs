@@ -58,13 +58,24 @@ public class OWTokiPona : ModBehaviour
 	// (at the expense of completely ignoring the unicode standard)
 	public string sitelenPonaFixer(string str) {
 		string new_str = "";
+		int cartOffset = 0;
 		for(int i = 0; i < str.Length; ++i) {
-			if (char.ConvertToUtf32(str, i) >= 0xF1900) {
-				new_str += (char)(char.ConvertToUtf32(str, i) + 0x88-0xF1900);
+			var charValue = char.ConvertToUtf32(str, i);
+
+			if (charValue == 0xF1991) {
+				cartOffset = 0;
+			}
+
+			if (charValue >= 0xF1900) {
+				new_str += (char)(charValue + 0x88-0xF1900 + cartOffset);
 				i++;
 			} else {
 				new_str += str[i];
 			}
+
+			if (charValue == 0xF1990) {
+				cartOffset = 0xC0; // manually handling cartouches
+			} 
 		}
 		if (new_str == "") return str;
 		return new_str;
