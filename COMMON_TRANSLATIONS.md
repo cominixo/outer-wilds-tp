@@ -1,30 +1,35 @@
-- The Eye of the universe: 󱤮󱤄 / 󱤮󱥍󱤰󱤄
-- Outer Wilds Ventures: 󱤟󱤺󱥍󱤰󱤗󱥶
-- Nomai: 󱤟󱦐󱤽󱥅󱤺󱤄󱦑
-- Signal: 󱤕
-- Frequency: 󱤟󱤕
-- Suit: 󱤥󱤈
-- Scout: 󱤎󱤃󱤨
-- Autopilot: 󱤎󱥍󱥩󱥭
-- Time loop / loop: 󱥜󱥫
-- The Vessel: 󱥭󱥩󱥣 (?)
-- Sun Station: 󱥭󱥣󱥤
-- Ash Twin: 󱤺󱤜
-- Ember Twin: 󱤺󱥗
-- Hourglass Twins: 󱤺󱥖󱥫
-- Timber Hearth: 󱤺󱤗
-- Brittle Hollow: 󱤺󱥍󱥘󱥈
-- Hollow's Lantern: 󱤺󱥤󱥗󱤨
-- Giant's Deep: 󱤺󱥪󱤝
-- Orbital Probe Cannon: 󱥭󱥍󱤎󱤃󱥩
-- Probe: 󱤎󱤃 / 󱤎󱤃󱥩
-- Control Module: 󱥭󱤤
-- Launch Module: 󱥭󱥩󱥍󱤎󱤃
-- Probe Tracking Module: 󱥭󱤮󱥍󱤎󱤃
-- Dark Bramble: 󱤺󱥍󱤗󱥏
-- The Interloper: 󱤺󱤨󱥤
-- White Hole: 󱤯󱥲
-- Quantum Moon: 󱤺󱥍󱥩󱤾
-- The Attlerock: 󱤺󱤨󱥍󱤺󱤗 (?)
-- Sun: 󱥤
-- Escape Pod: 󱥭󱥩󱤈
+- The Eye of the universe: 󱤮󱤄 / 󱤮󱥍󱤰󱤄    lukin ale / lukin pi ma ale
+- Outer Wilds Ventures: 󱤟󱤺󱥍󱤰󱤗󱥶          kulupu mun pi ma kasi weka
+- Nomai: 󱤟󱦐󱤽󱥅󱤺󱤄󱦑                         kulupu Noma (nanpa olin mun ale)
+- Signal: 󱤕                                kalama
+- Frequency: 󱤟󱤕                           kulupu kalama
+- Suit: 󱤥󱤈                                len awen
+- Scout: 󱤎󱤃󱤨                             ilo alasa lili
+- Autopilot: 󱤎󱥍󱥩󱥭                        ilo pi tawa tomo
+- Time loop / loop: 󱥜󱥫                    sike tenpo
+- The Vessel: 󱥭󱥩󱥣 (?)                    tomo tawa suli
+- Sun Station: 󱥭󱥣󱥤                       tomo suli suno
+- Ash Twin: 󱤺󱤜                            mun ko
+- Ember Twin: 󱤺󱥗                          mun seli
+- Hourglass Twins: 󱤺󱥖󱥫                   mun sama tenpo
+- Timber Hearth: 󱤺󱤗                       mun kasi
+- Brittle Hollow: 󱤺󱥍󱥘󱥈                   mun pi selo pakala
+- Hollow's Lantern: 󱤺󱥤󱥗󱤨                mun suno seli lili
+- Giant's Deep: 󱤺󱥪󱤝                      mun telo kon
+- Orbital Probe Cannon: 󱥭󱥍󱤎󱤃󱥩           tomo pi ilo alasa tawa
+- Probe: 󱤎󱤃 / 󱤎󱤃󱥩                       ilo alasa / ilo alasa tawa
+- Control Module: 󱥭󱤤                      tomo lawa
+- Launch Module: 󱥭󱥩󱥍󱤎󱤃                  tomo tawa pi ilo alasa
+- Probe Tracking Module: 󱥭󱤮󱥍󱤎󱤃          tomo lukin pi ilo alasa
+- Dark Bramble: 󱤺󱥍󱤗󱥏                     mun pi kasi pimeja
+- The Interloper: 󱤺󱤨󱥤                    mun lili suno
+- White Hole: 󱤯󱥲                          lupa walo
+- Quantum Moon: 󱤺󱥍󱥩󱤾                     mun pi tawa nasa
+- The Attlerock: 󱤺󱤨󱥍󱤺󱤗                  mun lili pi mun kasi
+- Sun: 󱥤                                   suno
+- Escape Pod: 󱥭󱥩󱤈                         tomo tawa awen
+
+# Hearthians
+- Arkose: 󱤁󱦐󱤇󱤜󱦜󱥗󱦜󱦑                      akesi Akose
+- Galena: 󱤁󱦐󱤔󱦜󱤥󱦜󱤾󱦜󱦑                     akesi Kalena
+- Tephra: 󱤁󱦐󱥪󱦜󱥋󱦜󱦑                        akesi Tepa
