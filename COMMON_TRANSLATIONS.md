@@ -1,0 +1,29 @@
+- The Eye of the universe: 󱤮󱤄 / 󱤮󱥍󱤰󱤄
+- Outer Wilds Ventures: 󱤟󱤺󱥍󱤰󱤗󱥶
+- Nomai: 󱤟󱦐󱤽󱥅󱤺󱤄󱦑
+- Signal: 󱤕
+- Frequency: 󱤟󱤕
+- Suit: 󱤥󱤈
+- Scout: 󱤎󱤃󱤨
+- Autopilot: 󱤎󱥍󱥩󱥭
+- Time loop / loop: 󱥜󱥫
+- The Vessel: 󱥭󱥩󱥣 (?)
+- Sun Station: 󱥭󱥣󱥤
+- Ash Twin: 󱤺󱤜
+- Ember Twin: 󱤺󱥗
+- Hourglass Twins: 󱤺󱥖󱥫
+- Timber Hearth: 󱤺󱤗
+- Brittle Hollow: 󱤺󱥍󱥘󱥈
+- Hollow's Lantern: 󱤺󱥤󱥗󱤨
+- Giant's Deep: 󱤺󱥪󱤝
+- Orbital Probe Cannon: 󱥭󱥍󱤎󱤃󱥩
+- Probe: 󱤎󱤃 / 󱤎󱤃󱥩
+- Control Module: 󱥭󱤤
+- Launch Module: 󱥭󱥩󱥍󱤎󱤃
+- Probe Tracking Module: 󱥭󱤮󱥍󱤎󱤃
+- Dark Bramble: 󱤺󱥍󱤗󱥏
+- The Interloper: 󱤺󱤨󱥍󱥩󱤾
+- White Hole: 󱤯󱥲
+- Quantum Moon: 󱤺󱥍󱤥󱥩 (?)
+- The Attlerock: 󱤺󱤨󱥍󱤺󱤗 (?)
+- Sun: 󱥤
