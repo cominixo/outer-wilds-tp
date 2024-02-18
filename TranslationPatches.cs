@@ -57,5 +57,13 @@ public class TranslationPatches {
         GameObject.Find("Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/CockpitCanvases/ShipWorldSpaceUI/ConsoleDisplay").GetComponent<Canvas>().scaleFactor = 10;
     }
 
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(HUDCanvas), nameof(HUDCanvas.Start))]
+    public static void HUDCanvas_Start_Postfix(HUDCanvas __instance) {
+        __instance._critOxygenNotif = new NotificationData(NotificationTarget.Player, UITextLibrary.GetString(UITextType.NotificationO2Sec), 3f);
+        __instance._lowOxygenNotif = new NotificationData(NotificationTarget.Player, UITextLibrary.GetString(UITextType.NotificationO2Min), 3f);
+        __instance._lowFuelNotif = new NotificationData(NotificationTarget.Player, UITextLibrary.GetString(UITextType.NotificationFuelLow), 3f);
+    }
+
 }
 

@@ -56,7 +56,7 @@ public class OWTokiPona : ModBehaviour
 
 	// The font has been altered so that the sitelen pona glyphs start at 0x88, so that the game can actually display them properly
 	// (at the expense of completely ignoring the unicode standard)
-	public string sitelenPonaFixer(string str) {
+	public static string sitelenPonaFixer(string str) {
 		string new_str = "";
 		int cartOffset = 0;
 		for(int i = 0; i < str.Length; ++i) {
