@@ -22,8 +22,9 @@
 - Launch Module: 󱥭󱥩󱥍󱤎󱤃
 - Probe Tracking Module: 󱥭󱤮󱥍󱤎󱤃
 - Dark Bramble: 󱤺󱥍󱤗󱥏
-- The Interloper: 󱤺󱤨󱥍󱥩󱤾
+- The Interloper: 󱤺󱤨󱥤
 - White Hole: 󱤯󱥲
-- Quantum Moon: 󱤺󱥍󱤥󱥩 (?)
+- Quantum Moon: 󱤺󱥍󱥩󱤾
 - The Attlerock: 󱤺󱤨󱥍󱤺󱤗 (?)
 - Sun: 󱥤
+- Escape Pod: 󱥭󱥩󱤈
