@@ -24,12 +24,27 @@
 - Dark Bramble: 󱤺󱥍󱤗󱥏                     mun pi kasi pimeja
 - The Interloper: 󱤺󱤨󱥤                    mun lili suno
 - White Hole: 󱤯󱥲                          lupa walo
+- White Hole Core: 󱤎󱥍󱤯󱥲                 ilo pi lupa walo
 - Quantum Moon: 󱤺󱥍󱥩󱤾                     mun pi tawa nasa
 - The Attlerock: 󱤺󱤨󱥍󱤺󱤗                  mun lili pi mun kasi
 - Sun: 󱥤                                   suno
 - Escape Pod: 󱥭󱥩󱤈                         tomo tawa awen
+- Grove Shard: 󱤛󱤾󱥍󱤯󱥣                     kiwen nasa pi lupa suli
+- Musem Shard: 󱤛󱤾󱥍󱥭󱥡                     kiwen nasa pi tomo sona
+- Tower Shard: 󱤛󱤾󱥍󱥭󱥚                    kiwen nasa pi tomo sewi
+- Cave Shard: 󱤛󱤾󱥍󱤯󱥏                     kiwen nasa pi lupa pimeja
+- Island Shard: 󱤛󱤾󱥍󱤰󱥪                   kiwen nasa pi ma telo
+- Warp Platform: 󱥥󱥩 / 󱤎󱥥󱥩               supa tawa / ilo supa tawa
 
 # Hearthians
 - Arkose: 󱤁󱦐󱤇󱤜󱦜󱥗󱦜󱦑                      akesi Akose
 - Galena: 󱤁󱦐󱤔󱦜󱤥󱦜󱤾󱦜󱦑                     akesi Kalena
 - Tephra: 󱤁󱦐󱥪󱦜󱥋󱦜󱦑                        akesi Tepa
+
+# Travelers
+- Chert: 󱤁󱦐󱥖󱦜󱥭󱦜󱦑                         akesi Sato
+- Esker: 󱤁󱦐󱤊󱥤󱦜󱤘󱦜󱦑                      akesi Esuke
+- Feldspar: 󱤁󱦐󱥋󱤋󱦜󱥣󱦜󱥈󱦜󱦑                 akesi Pesupa
+- Gabbro: 󱤁󱦐󱤔󱦜󱥔󱦜󱦑                        akesi Kapo
+- Rieback: 󱤁󱦐󱤧󱦜󱥉󱦜󱤜󱦜󱦑                    akesi Lipako
+- Solanum: 󱤑󱦐󱥡󱦜󱤤󱦜󱤽󱥰󱤾󱦑                    jan Solanun
