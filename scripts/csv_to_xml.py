@@ -2,7 +2,7 @@ import csv
 import lxml.etree
 import lxml.builder
 
-csvfile = open("outer-wilds-game-tok.csv", newline='')
+csvfile = open("outer-wilds-game-tok.csv", newline='', encoding='utf-8')
 gamereader = csv.reader(csvfile)
 next(gamereader, None)
 
@@ -26,7 +26,7 @@ for row in gamereader:
         )
     )
 
-csvfile = open("outer-wilds-ships-logs-tok.csv", newline='')
+csvfile = open("outer-wilds-ships-logs-tok.csv", newline='', encoding='utf-8')
 shiplogs = csv.reader(csvfile)
 next(shiplogs, None)
 
@@ -42,7 +42,7 @@ for row in shiplogs:
 
 the_doc.append(table)
 
-csvfile = open("outer-wilds-ui-tok.csv", newline='')
+csvfile = open("outer-wilds-ui-tok.csv", newline='', encoding='utf-8')
 ui = csv.reader(csvfile)
 next(ui, None)
 
