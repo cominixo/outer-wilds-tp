@@ -11,6 +11,17 @@ namespace OWTokiPona;
 public class OWTokiPona : ModBehaviour
 {
 	public static OWTokiPona Instance;
+	private static string[] signs = new string[]{
+		"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/LowerVillage_Signposts/BatchedGroup/BatchedMeshRenderers_8",
+		"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/LowerVillage_Signposts/BatchedGroup/BatchedMeshRenderers_9",
+		"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/LampPost_Decal_Observatory",
+		"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/LampPost_Decal_ZeroGCave",
+		"TimberHearth_Body/Sector_TH/Sector_Village/Lighting_Village/OtherComponentsGroup/Props_HEA_SignPost (3)/LampPost_Decal_LaunchTower",
+		"TimberHearth_Body/Sector_TH/Sector_ZeroGCave/DetailPatches_ZeroGCave/UpperCave/ZeroGCaveSign/Decal_ZeroG",
+		"TimberHearth_Body/Sector_TH/Sector_ZeroGCave/DetailPatches_ZeroGCave/UpperCave/ZeroGCaveSign/Decal_ZeroG (1)",
+		"TimberHearth_Body/Sector_TH/Sector_ZeroGCave/DetailPatches_ZeroGCave/Entrance/ZeroGCaveSign/Decal_ZeroG",
+		"TimberHearth_Body/Sector_TH/Sector_ZeroGCave/DetailPatches_ZeroGCave/Entrance/ZeroGCaveSign/Decal_ZeroG (1)"
+	};
 
 	public void Awake() {
 		Instance = this;
@@ -22,6 +33,9 @@ public class OWTokiPona : ModBehaviour
         api.RegisterLanguage(this, "toki pona", "assets/Translation.xml");
 		api.AddLanguageFixer("toki pona", sitelenPonaFixer);
 		api.AddLanguageFont(this, "toki pona", "AssetBundles/fonts", "nasin-nanpa-3.1.0");
+		//api.SetLanguageFontSizeModifier("toki pona", 0.9f);
+		//api.SetLanguageDefaultFontSpacing("toki pona", 1);
+
 
 		SceneManager.sceneLoaded += onSceneLoaded;
 
@@ -29,7 +43,13 @@ public class OWTokiPona : ModBehaviour
 	}
 
 	private void onSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "TitleScreen") {
+		if (scene.name == "SolarSystem") {
+			foreach (string s in signs) {
+				var signobject = GameObject.Find(s);
+				signobject.GetComponent<MeshRenderer>().material.mainTexture = ModHelper.Assets.GetTexture("assets/signs.png");
+			}
+		}	
+		else if (scene.name == "TitleScreen") {
 			GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/OUTER").transform.localScale = Vector3.zero;
 			GameObject.Find("TitleCanvasHack/TitleLayoutGroup/OW_Logo_Anim/OW_Logo_Anim/WILDS").transform.localScale = Vector3.zero;
 			var eoteobject = GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye");

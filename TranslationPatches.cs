@@ -65,5 +65,11 @@ public class TranslationPatches {
         __instance._lowFuelNotif = new NotificationData(NotificationTarget.Player, UITextLibrary.GetString(UITextType.NotificationFuelLow), 3f);
     }
 
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(CharacterDialogueTree), nameof(CharacterDialogueTree.DisplayDialogueBox2))]
+    public static void DisplayDialogueBox2_Postfix() {
+        var dialogueText = GameObject.Find("DialogueCanvas/MainAnchorPoint/DialogueRect/VerticalLayoutGroup/DialogueText").GetComponent<Text>();
+		dialogueText.lineSpacing = 1;
+    }	
 }
 
